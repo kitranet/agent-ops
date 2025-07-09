@@ -20,7 +20,7 @@ Install these on your system:
 - [Python 3.11](https://www.python.org/downloads/)
 - [Node.js (LTS)](https://nodejs.org)
 - [Git (optional)](https://git-scm.com)
-- [SqlLite 3](https://sqlite.org/download.html)
+- [SqlLite Browser](https://sqlitebrowser.org/dl/)
 
 ---
 
