@@ -1,0 +1,4 @@
+framework,agent_type,status,health_endpoint,health,version,agent_id,agent_name,owner,task,deployed_at,source
+LangGraph,executor,active,http://localhost/health,UNKNOWN,2.1.0,agent-910,BulkAgent1,ownerX,taskX,2025-06-29T12:00:00,active
+LangChain,planner,inactive,/health-beta,UNKNOWN,1.1,agent-002,Beta,Team-B,generation,2025-06-29T10:00:00,active
+LangChain,planner,active,http://localhost/health,UNKNOWN,1.0,agent-911,BulkAgent2,ownerX,taskY,2025-06-29T09:10:00,active

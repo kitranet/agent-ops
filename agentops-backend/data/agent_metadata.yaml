@@ -1,0 +1,8 @@
+agent_id: agent_docsum_01
+version: v1.2
+framework: LangGraph
+owner: ai-team@company.com
+status: active
+task: Document Summarization
+health_endpoint: /agents/agent_docsum_01/health
+deployed_at: 2025-06-28

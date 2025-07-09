@@ -1,0 +1,145 @@
+2025-06-29 09:08:19,881 - INFO - \u2705 AgentOps API root accessed.
+2025-06-29 09:10:33,451 - INFO - Registered agent agent-003
+2025-06-29 09:14:12,708 - INFO - Registered agent agent-004
+2025-06-29 09:14:23,554 - INFO - Registered agent agent-005
+2025-06-29 09:15:56,921 - INFO - Registered agent agent-006
+2025-06-29 09:26:51,121 - INFO - \u2705 AgentOps API root accessed.
+2025-06-29 09:32:59,554 - INFO - \u2705 AgentOps API root accessed.
+2025-06-29 09:41:48,212 - INFO - \u2705 AgentOps API root accessed.
+2025-06-29 09:57:22,505 - INFO - \u2705 Registered agent agent-001
+2025-06-29 10:01:04,829 - INFO - \u2705 AgentOps API root accessed.
+2025-06-29 12:35:08,775 - INFO - Registered agent agent-002
+2025-06-29 12:35:21,775 - INFO - Registered agent agent-003
+2025-06-29 12:35:42,690 - INFO - Registered agent agent-004
+2025-06-29 12:45:37,944 - INFO - Registered agent agent-101
+2025-06-29 12:52:07,927 - INFO - \u2705 Registered agent agent-901
+2025-06-29 12:52:08,052 - INFO - \U0001f6d1 Retired agent agent-901
+2025-06-29 12:59:00,445 - INFO - \u2705 Registered agent agent-901
+2025-06-29 12:59:00,569 - INFO - \U0001f53b Retired agent agent-901
+2025-06-29 12:59:00,621 - INFO - \U0001f504 Updated status for agent-901 to maintenance
+2025-06-29 12:59:00,756 - INFO - \U0001f5d1\ufe0f Deleted agent agent-901
+2025-06-29 13:01:02,478 - INFO - \u2705 Registered agent agent-901
+2025-06-29 13:01:02,573 - INFO - \u267b\ufe0f Retired agent agent-901
+2025-06-29 13:01:02,701 - INFO - \u274c Deleted agent agent-901
+2025-06-29 13:33:36,456 - INFO - \u2705 Registered agent agent-901
+2025-06-29 13:33:36,580 - INFO - \U0001f515 Retired agent agent-901
+2025-06-29 14:36:44,482 - INFO - Retired agent agent-901
+2025-06-29 14:41:04,483 - INFO - Retired agent agent-901
+2025-06-29 14:45:06,028 - INFO - Retired agent agent-901
+2025-06-29 14:45:06,073 - INFO - Updated agent agent-901 status to maintenance
+2025-06-29 14:48:36,143 - INFO - Registered agent agent-901
+2025-06-29 14:48:36,273 - INFO - Retired agent agent-901
+2025-06-29 14:48:36,315 - INFO - Updated agent agent-901 status to maintenance
+2025-06-29 14:48:36,417 - INFO - Deleted agent agent-901
+2025-06-29 14:48:52,576 - INFO - Registered agent agent-901
+2025-06-29 14:48:52,676 - INFO - Retired agent agent-901
+2025-06-29 14:48:52,720 - INFO - Updated agent agent-901 status to maintenance
+2025-06-29 14:48:52,832 - INFO - Deleted agent agent-901
+2025-06-29 14:51:21,184 - INFO - Registered agent agent-901
+2025-06-29 14:54:21,163 - INFO - Registered agent agent-901
+2025-06-29 14:54:21,266 - INFO - Retired agent agent-901
+2025-06-29 14:54:21,309 - INFO - Updated agent agent-901 status to maintenance
+2025-06-29 14:56:30,620 - INFO - Registered agent agent-901
+2025-06-29 14:56:30,724 - INFO - Retired agent agent-901
+2025-06-29 14:56:30,768 - INFO - Updated agent agent-901 status to maintenance
+2025-06-29 14:56:30,879 - INFO - Deleted agent agent-901
+2025-06-29 18:39:14,020 - INFO - Registered agent agent-901
+2025-06-29 18:39:14,134 - INFO - Retired agent agent-901
+2025-06-29 18:39:14,178 - INFO - Updated agent agent-901 status to maintenance
+2025-06-29 18:39:14,282 - INFO - Deleted agent agent-901
+2025-06-29 21:52:03,947 - INFO - Registered agent agent-901
+2025-06-29 21:52:04,056 - INFO - Retired agent agent-901
+2025-06-29 21:52:04,103 - INFO - Updated agent agent-901 status to maintenance
+2025-06-29 21:52:04,199 - INFO - Deleted agent agent-901
+2025-06-29 22:01:55,701 - INFO - Registered agent agent-901
+2025-06-29 22:02:00,469 - INFO - Agent agent-901 upgraded to version 2.0.1
+2025-06-29 22:10:53,029 - INFO - Bulk registration done: Created=['agent-910', 'agent-911'], Skipped=[]
+2025-06-29 22:12:18,258 - INFO - Agent agent-910 upgraded to version 2.1.0
+2025-06-29 22:12:29,371 - INFO - Retired agent agent-910
+2025-06-29 22:12:40,127 - INFO - Updated agent agent-910 status to maintenance
+2025-06-30 05:28:57,184 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 05:29:00,143 - INFO - root - \u2705 AgentOps API root accessed.
+2025-06-30 05:40:35,909 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 05:47:40,767 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 05:48:27,176 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 05:48:58,855 - ERROR - agentops - \u274c Health check process failed: (sqlite3.OperationalError) no such column: agents.health
+[SQL: SELECT agents.agent_id AS agents_agent_id, agents.agent_name AS agents_agent_name, agents.agent_type AS agents_agent_type, agents.version AS agents_version, agents.framework AS agents_framework, agents.owner AS agents_owner, agents.status AS agents_status, agents.task AS agents_task, agents.health_endpoint AS agents_health_endpoint, agents.deployed_at AS agents_deployed_at, agents.health AS agents_health 
+FROM agents]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-30 06:07:31,012 - ERROR - agentops - \u274c Health check process failed: (sqlite3.OperationalError) no such column: agents.health
+[SQL: SELECT agents.agent_id AS agents_agent_id, agents.agent_name AS agents_agent_name, agents.agent_type AS agents_agent_type, agents.version AS agents_version, agents.framework AS agents_framework, agents.owner AS agents_owner, agents.status AS agents_status, agents.task AS agents_task, agents.health_endpoint AS agents_health_endpoint, agents.deployed_at AS agents_deployed_at, agents.health AS agents_health 
+FROM agents]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-30 06:12:02,699 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 06:12:10,565 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 06:13:32,058 - ERROR - agentops - \u274c Error retrieving agent status: (sqlite3.OperationalError) no such column: agents.health
+[SQL: SELECT agents.agent_id AS agents_agent_id, agents.agent_name AS agents_agent_name, agents.agent_type AS agents_agent_type, agents.version AS agents_version, agents.framework AS agents_framework, agents.owner AS agents_owner, agents.status AS agents_status, agents.task AS agents_task, agents.health_endpoint AS agents_health_endpoint, agents.deployed_at AS agents_deployed_at, agents.health AS agents_health 
+FROM agents 
+WHERE agents.agent_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('agent-910', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-30 06:18:22,254 - ERROR - agentops - \u274c Health check process failed: (sqlite3.OperationalError) no such column: agents.health
+[SQL: SELECT agents.agent_id AS agents_agent_id, agents.agent_name AS agents_agent_name, agents.agent_type AS agents_agent_type, agents.version AS agents_version, agents.framework AS agents_framework, agents.owner AS agents_owner, agents.status AS agents_status, agents.task AS agents_task, agents.health_endpoint AS agents_health_endpoint, agents.deployed_at AS agents_deployed_at, agents.health AS agents_health 
+FROM agents]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-30 06:18:55,730 - ERROR - agentops - \u274c Error retrieving agent status: (sqlite3.OperationalError) no such column: agents.health
+[SQL: SELECT agents.agent_id AS agents_agent_id, agents.agent_name AS agents_agent_name, agents.agent_type AS agents_agent_type, agents.version AS agents_version, agents.framework AS agents_framework, agents.owner AS agents_owner, agents.status AS agents_status, agents.task AS agents_task, agents.health_endpoint AS agents_health_endpoint, agents.deployed_at AS agents_deployed_at, agents.health AS agents_health 
+FROM agents 
+WHERE agents.agent_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('agent-910', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-30 06:34:01,443 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 06:35:23,127 - ERROR - agentops - \u274c Health check process failed: (sqlite3.OperationalError) no such column: agents.health
+[SQL: SELECT agents.agent_id AS agents_agent_id, agents.agent_name AS agents_agent_name, agents.agent_type AS agents_agent_type, agents.version AS agents_version, agents.framework AS agents_framework, agents.owner AS agents_owner, agents.status AS agents_status, agents.task AS agents_task, agents.health_endpoint AS agents_health_endpoint, agents.deployed_at AS agents_deployed_at, agents.health AS agents_health 
+FROM agents]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-30 06:35:53,952 - ERROR - agentops - \u274c Error retrieving agent status: (sqlite3.OperationalError) no such column: agents.health
+[SQL: SELECT agents.agent_id AS agents_agent_id, agents.agent_name AS agents_agent_name, agents.agent_type AS agents_agent_type, agents.version AS agents_version, agents.framework AS agents_framework, agents.owner AS agents_owner, agents.status AS agents_status, agents.task AS agents_task, agents.health_endpoint AS agents_health_endpoint, agents.deployed_at AS agents_deployed_at, agents.health AS agents_health 
+FROM agents 
+WHERE agents.agent_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('agent-910', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-30 07:19:01,465 - ERROR - agentops - \u274c Error retrieving agent status: 404: Agent not found
+2025-06-30 07:19:01,526 - INFO - agentops - Retired agent agent-901
+2025-06-30 07:19:01,576 - INFO - agentops - Updated agent agent-901 status to maintenance
+2025-06-30 07:19:01,698 - INFO - agentops - Deleted agent agent-901
+2025-06-30 07:19:01,726 - ERROR - agentops - \u274c Error retrieving agent status: 404: Agent not found
+2025-06-30 07:19:27,240 - INFO - agentops - Registered agent agent-901
+2025-06-30 07:19:27,311 - ERROR - agentops - \u274c Error retrieving agent status: 404: Agent not found
+2025-06-30 07:19:27,356 - INFO - agentops - Retired agent agent-901
+2025-06-30 07:19:27,418 - INFO - agentops - Updated agent agent-901 status to maintenance
+2025-06-30 07:19:27,540 - INFO - agentops - Deleted agent agent-901
+2025-06-30 07:19:27,570 - ERROR - agentops - \u274c Error retrieving agent status: 404: Agent not found
+2025-06-30 07:28:10,118 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 07:28:26,061 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:28:32,186 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:33:17,899 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:33:25,043 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:33:54,860 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:34:12,035 - INFO - agentops - \U0001f5c3\ufe0f Agent agent-910 retired and archived
+2025-06-30 08:36:40,054 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:36:48,421 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:39:53,463 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:40:20,396 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:44:50,090 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:45:00,527 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 08:50:50,439 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 10:22:28,138 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 10:22:37,069 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 10:23:24,209 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 10:23:37,252 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 10:40:36,347 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 10:40:52,925 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 17:02:37,473 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 17:22:37,592 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 17:23:01,726 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 17:50:04,930 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 22:14:23,065 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-06-30 22:15:06,639 - INFO - root - \u2705 AgentOps API root accessed.
+2025-07-08 17:50:40,702 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-07-08 17:50:43,566 - INFO - root - \u2705 AgentOps API root accessed.
+2025-07-08 19:06:36,640 - INFO - root - \U0001f680 AgentOps API started and ready to serve requests.
+2025-07-08 19:06:36,678 - INFO - root - \u2705 AgentOps API root accessed.

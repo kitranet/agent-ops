@@ -1,0 +1,28 @@
+{
+  "agents": [
+    {
+      "agent_id": "agent-910",
+      "agent_name": "BulkAgent1",
+      "agent_type": "executor",
+      "version": "1.0",
+      "framework": "LangGraph",
+      "owner": "ownerX",
+      "status": "active",
+      "task": "taskX",
+      "health_endpoint": "http://localhost/health",
+      "deployed_at": "2025-06-29T09:00:00"
+    },
+    {
+      "agent_id": "agent-911",
+      "agent_name": "BulkAgent2",
+      "agent_type": "planner",
+      "version": "1.0",
+      "framework": "LangChain",
+      "owner": "ownerX",
+      "status": "active",
+      "task": "taskY",
+      "health_endpoint": "http://localhost/health",
+      "deployed_at": "2025-06-29T09:10:00"
+    }
+  ]
+}

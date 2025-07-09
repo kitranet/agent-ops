@@ -1,0 +1,4 @@
+framework,agent_type,status,health_endpoint,health,version,agent_id,agent_name,owner,task,deployed_at,source
+LangGraph,observer,maintenance,/health-delta,UNKNOWN,2.1,agent-004,Delta,Team-D,monitoring,2025-06-29T14:00:00,active
+LangGraph,executor,active,http://localhost/health,UNKNOWN,2.1.0,agent-910,BulkAgent1,ownerX,taskX,2025-06-29T12:00:00,active
+LangGraph,executor,active,/health,UNKNOWN,1.0,agent-001,Alpha,Team-A,classification,2025-06-29T08:00:00,active
