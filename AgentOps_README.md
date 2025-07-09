@@ -1,6 +1,6 @@
 # 🧠 AgentOps: Local Dev Setup
 
-This is a complete setup for managing AI agents (LangGraph, Swarm, etc.) using a backend built in **FastAPI + SQLite** and a frontend in **React + Vite + TailwindCSS**.
+This is a complete setup for managing AI agents (LangGraph, Swarm, etc.) using a backend built in **FastAPI + SQLite** and a frontend in **React**.
 
 ---
 
@@ -8,7 +8,7 @@ This is a complete setup for managing AI agents (LangGraph, Swarm, etc.) using a
 
 ```
 agentops-backend/       ← FastAPI backend
-agentops-vite/          ← React frontend (Vite + Tailwind)
+agentops-frontend/          ← React frontend
 ```
 
 ---
