@@ -29,11 +29,11 @@ Install these on your system:
 
 ```bash
 cd agentops-backend
-python -m venv venv
+"C:\<path to python3.11>\python.exe" -m venv agops
 # Windows:
-venv\Scripts\activate
+agops\Scripts\activate
 # Mac/Linux:
-source venv/bin/activate
+source agops/bin/activate
 ```
 
 ### Step 2: Install dependencies
