@@ -8,7 +8,7 @@ This is a complete setup for managing AI agents (LangGraph, Swarm, etc.) using a
 
 ```
 agentops-backend/       ← FastAPI backend
-agentops-frontend/          ← React frontend
+agentops-frontend/      ← React frontend
 ```
 
 ---
